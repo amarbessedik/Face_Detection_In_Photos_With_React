@@ -1,8 +1,18 @@
 .bounding-box {
   position: absolute;
-  box-shadow: 0 0 0 3px red inset;
+  box-shadow: 0 0 0 2px rgb(0, 255, 242) inset;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   cursor: pointer;
+  border-radius: 35%;
+  background: rgba(0, 255, 242, 0.2);
+}
+
+
+.bounding-box:hover{
+  box-shadow: 0 0 0 1px rgb(123, 255, 0) inset;
+  transform: scale(1.15);
+  background: transparent;
+  border-radius: 10%;
 }
